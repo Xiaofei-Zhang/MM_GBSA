@@ -1,7 +1,7 @@
-# prepare_mmpbsa_MPI.py
+# mmgbsa_MPI.py
 # MM/PBSA analysis script in parallel
 # Usage:
-#       mpiexec -np #processes python prepare_mmpbsa_MPI.py $LIGLIST $RCPTRLIST $CONFIG
+#       mpiexec -np #processes python mmgbsa_MPI.py $LIGLIST $RCPTRLIST $CONFIG
 #
 # $LIG_list is the file contains all the ligand name
 # $RCPTR_list is the file contains all the receptor name
