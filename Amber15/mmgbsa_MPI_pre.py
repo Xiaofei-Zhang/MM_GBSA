@@ -110,9 +110,6 @@ def mmgbsa(rcptr_name, lig_name, pose_number, par_dict):
     #print cmd3
     os.system(cmd3)
 
-#    cmplx_inp_prmtop = 'cmplx.strip.strip.' + prmtop
-#    rcptr_inp_prmtop = 'rcptr.strip.strip.strip.' + prmtop
-#    lig_inp_prmtop = 'lig.strip.strip.strip.' + prmtop
     cmplx_inp_prmtop = 'cmplx.' + prmtop
     rcptr_inp_prmtop = 'rcptr.' + prmtop
     lig_inp_prmtop = 'lig.' + prmtop
@@ -123,11 +120,7 @@ def mmgbsa(rcptr_name, lig_name, pose_number, par_dict):
     change_prmtop(cmplx_inp_prmtop, cmplx_i)
     change_prmtop(rcptr_inp_prmtop, rcptr_i)
     change_prmtop(lig_inp_prmtop, lig_i)
-    #arg_list = ['-O','-i',par_dict['m_in_dir'] + '/' + par_dict['mmpbsa_in'], '-o', 'FINAL_RESULTS_MMPBSA.dat', '-cp', cmplx_i, '-rp', rcptr_i, '-lp', lig_i, '-y', 'cmplx.dcd']
-    #cmd4 = par_dict['mmpbsa'] + ' -O -i ' + par_dict['m_in_dir'] + '/' + par_dict['mmpbsa_in'] + ' -o FINAL_RESULTS_MMPBSA.dat -cp ' + cmplx_i + ' -rp ' + rcptr_i + ' -lp ' + lig_i + ' -y cmplx.dcd'
-    #print cmd4
-    #comm2 = MPI.COMM_SELF.Spawn(par_dict['mmpbsa'], args=arg_list, maxprocs=1)
-    #os.system(cmd4)
+
 
 # minimization: function to run the minimization
 def minimization(rcptr_name, lig_name, pose_number, par_dict):
