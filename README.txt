@@ -12,12 +12,12 @@ Usage:
 (3) Verify the directories that contains the MOL2 files of the ligands
 (4) Modify the paths information in get_lig_lib.py as needed
 (5) Run get_lig_lib.py to generate the library files for all ligands
-(7) Copy Y2P.off and frcmod_y2p to amber_lib directory generated in step (5)
-(8) Create the .conf file (one input for mmgbsa_MPI.py) contains the correct path information
-(10)Run mmpbsa_MPI.py on 1 ligand and 1 receptor to make sure that all inputs are correct.
+(6) Copy Y2P.off and frcmod_y2p to amber_lib directory generated in step (5)
+(7) Create the .conf file (one input for mmgbsa_MPI.py) contains the correct path information
+(8) Run mmpbsa_MPI.py on 1 ligand and 1 receptor to make sure that all inputs are correct.
      eg: mpiexec -np 1 python mmgbsa_MPI.py lig rcptr test.conf
-(11)Prepare the batch job script to run mmpbsa_MPI.py
-
+(9) Prepare the batch job script to run mmpbsa_MPI.py
+(10)Using get_avg_energy_best_5.py to collect the MMGBSA scores in to a file for further analysis
 
 References:
 1. D.A. Case, T.A. Darden, T.E. Cheatham, III, C.L. Simmerling, J. Wang, R.E. Duke, R. Luo, R.C. Walker, W. Zhang, K.M. Merz, B. Roberts, S. Hayik, A. Roitberg, G. Seabra, J. Swails, A.W. Götz, I. Kolossváry, K.F. Wong, F. Paesani, J. Vanicek, R.M. Wolf, J. Liu, X. Wu, S.R. Brozell, T. Steinbrecher, H. Gohlke, Q. Cai, X. Ye, J. Wang, M.-J. Hsieh, G. Cui, D.R. Roe, D.H. Mathews, M.G. Seetin, R. Salomon-Ferrer, C. Sagui, V. Babin, T. Luchko, S. Gusarov, A. Kovalenko, and P.A. Kollman (2012), AMBER 12, University of California, San Francisco.
