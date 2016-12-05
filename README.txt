@@ -20,10 +20,16 @@ Usage:
 (10)Using get_avg_energy_best_5.py to collect the MMGBSA scores in to a file for further analysis
 
 References:
-1. D.A. Case, T.A. Darden, T.E. Cheatham, III, C.L. Simmerling, J. Wang, R.E. Duke, R. Luo, R.C. Walker, W. Zhang, K.M. Merz, B. Roberts, S. Hayik, A. Roitberg, G. Seabra, J. Swails, A.W. Götz, I. Kolossváry, K.F. Wong, F. Paesani, J. Vanicek, R.M. Wolf, J. Liu, X. Wu, S.R. Brozell, T. Steinbrecher, H. Gohlke, Q. Cai, X. Ye, J. Wang, M.-J. Hsieh, G. Cui, D.R. Roe, D.H. Mathews, M.G. Seetin, R. Salomon-Ferrer, C. Sagui, V. Babin, T. Luchko, S. Gusarov, A. Kovalenko, and P.A. Kollman (2012), AMBER 12, University of California, San Francisco.
+1. D.A. Case, T.A. Darden, T.E. Cheatham, III, C.L. Simmerling, J. Wang, R.E. Duke, R. Luo, R.C. Walker, W. Zhang, K.M. Merz, B. Roberts,
+S. Hayik, A. Roitberg, G. Seabra, J. Swails, A.W. Götz, I. Kolossváry, K.F. Wong, F. Paesani, J. Vanicek, R.M. Wolf, J. Liu, X. Wu, S.R.
+Brozell, T. Steinbrecher, H. Gohlke, Q. Cai, X. Ye, J. Wang, M.-J. Hsieh, G. Cui, D.R. Roe, D.H. Mathews, M.G. Seetin, R. Salomon-Ferrer,
+C. Sagui, V. Babin, T. Luchko, S. Gusarov, A. Kovalenko, and P.A. Kollman (2012), AMBER 12, University of California, San Francisco.
 
-2. MMPBSA.py: An Efficient Program for End-State Free Energy Calculations J. Chem. Theory Comput. In Journal of Chemical Theory and Computation, Vol. 8, No. 9. (25 July 2012), pp. 3314-3321, doi:10.1021/ct300418h by Bill R. Miller, T. Dwight McGee, Jason M. Swails, et al.
+2. MMPBSA.py: An Efficient Program for End-State Free Energy Calculations J. Chem. Theory Comput. In Journal of Chemical Theory and
+Computation, Vol. 8, No. 9. (25 July 2012), pp. 3314-3321, doi:10.1021/ct300418h by Bill R. Miller, T. Dwight McGee, Jason M. Swails, 
+et al.
 
 3. Parameters for TYR-PO3 : Y2P; N.Homeyer, A.H.C.Horn, H.Lanig, H.Sticht, J. Mol. Model., in press
 
-4. VinaMPI: facilitating multiple receptor high-throughput virtual docking on high-performance computers. Sally R. Ellingson, Jeremy C. Smith, Jerome Baudry J Comput Chem. 2013 Sep 30; 34(25): 2212–2221. doi: 10.1002/jcc.23367
+4. VinaMPI: facilitating multiple receptor high-throughput virtual docking on high-performance computers. Sally R. Ellingson, Jeremy C.
+Smith, Jerome Baudry J Comput Chem. 2013 Sep 30; 34(25): 2212–2221. doi: 10.1002/jcc.23367
