@@ -1,0 +1,6 @@
+trajin min1.rst
+strip :WAT  
+strip :Cl- 
+strip :K+ outprefix cmplx1
+autoimage
+trajout cmplx1.pdb pdb

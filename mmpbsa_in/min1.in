@@ -1,0 +1,14 @@
+Minimize 1000 steps with PBC applied.  Only waters and ions are movable.
+ &cntrl
+  imin=1,
+  maxcyc=1000,
+  ncyc=500,
+  ntb=1,
+  ntr=1,
+  cut=10.0,
+  ntpr=50,
+  ntwx=1,
+  ntx=1,
+  restraint_wt=500.0,
+  restraintmask=':1-7127'
+ /

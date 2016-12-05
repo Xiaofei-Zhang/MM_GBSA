@@ -1,0 +1,7 @@
+trajin min2.rst
+strip :WAT  
+strip :Cl- 
+strip :K+ 
+strip :446 outprefix rcptr
+autoimage
+trajout rcptr.pdb pdb

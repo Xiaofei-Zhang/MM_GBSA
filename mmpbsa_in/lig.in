@@ -1,0 +1,7 @@
+trajin min2.rst
+strip :WAT  
+strip :Cl- 
+strip :K+ 
+strip :1-445 outprefix lig
+autoimage
+trajout lig.pdb pdb

@@ -8,4 +8,4 @@
 source /usr/share/Modules/init/bash
 module load amber/openmpi/12p12
 
-mpiexec -np 16 python mmgbsa_MPI.py lig_test_dlx rcptr 1.conf
+mpiexec -np 16 python mmgbsa_MPI.py lig rcptr 1.conf

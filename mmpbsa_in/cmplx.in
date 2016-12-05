@@ -1,0 +1,6 @@
+trajin min2.rst
+strip :WAT  
+strip :Cl- 
+strip :K+ outprefix cmplx
+autoimage
+trajout cmplx.dcd dcd

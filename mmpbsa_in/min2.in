@@ -1,0 +1,12 @@
+Minimize in 1000 steps with PBC applied.  Everything is movable.
+ &cntrl
+  imin=1,
+  maxcyc=1000,
+  ncyc=500,
+  ntb=1,
+  ntr=0,
+  cut=10.0,
+  ntpr=100,
+  ntwx=1,
+  ntx=1,
+ /
