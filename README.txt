@@ -22,7 +22,7 @@ Usage:
 Tips:
     Script mmgbsa_MPI.py is based on Amber12/AmberTools12. Directly calling MMPBSA.py in AmberTools14 or 
     later version under MPI will cause error. If you are using AmberTools14 or later version, please use
-    the /AMBER15/mmgbsa_MPI_pre.py and /AMBER15/mmgbsa_series.py
+    the ./AMBER15/mmgbsa_MPI_pre.py and ./AMBER15/mmgbsa_series.py instead.
 
 References:
 1. D.A. Case, T.A. Darden, T.E. Cheatham, III, C.L. Simmerling, J. Wang, R.E. Duke, R. Luo, R.C. Walker, 
