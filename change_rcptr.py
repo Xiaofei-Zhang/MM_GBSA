@@ -110,33 +110,6 @@ def main():
                     continue
                 outfile.write(line)
 
-
-    '''
-    # change CD to CD1 in ILE residues
-    cmd3 = 'sed -i \'s/CD  ILE/CD1 ILE/g\' ' + outfilename
-    os.system(cmd3)
-    # change HSE to HID
-    cmd4 = 'sed -i \'s/HSE U/HID U/g\' ' + outfilename
-    os.system(cmd4)
-    # change OT1 in PRO residue to O
-    cmd5 = 'sed -i \'s/OT1 PRO/O   PRO/g\' ' + outfilename
-    os.system(cmd5)
-    # change OT2 in PRO residue to OXT
-    cmd6 = 'sed -i \'s/OT2 PRO/OXT PRO/g\' ' + outfilename
-    os.system(cmd6)
-
-    str_Y2P_idx = 'XXXX'
-    with open(infilename, 'r') as infile:
-        for line in infile:
-            if line[13:20] == 'P1  TYR':
-                str_Y2P_idx = line[20:26]
-                break
-    print str_Y2P_idx
-    
-    cmd7 = 'sed -i \'s/TYR'+ str_Y2P_idx +'/Y2P' + str_Y2P_idx+'/g\' ' + outfilename
-    os.system(cmd7)
-'''
-
 #    os.system('rm ' + tmpfilename)
 if __name__ == '__main__':
     main()
