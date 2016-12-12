@@ -54,9 +54,19 @@ def main():
                     newline = line[0:13] + 'CD1 ILE' + line[20:]
                     outfile.write(newline)
                     continue
-                # change the residuname HSE to HID
+                # change the residuname HSE to HIE
                 if line[17:20] == 'HSE':
+                    newline = line[0:17] + 'HIE' + line[20:]
+                    outfile.write(newline)
+                    continue
+                # change the residuname HSD to HID
+                if line[17:20] == 'HSD':
                     newline = line[0:17] + 'HID' + line[20:]
+                    outfile.write(newline)
+                    continue
+                # change the residuname HSP to HIP
+                if line[17:20] == 'HSP':
+                    newline = line[0:17] + 'HIP' + line[20:]
                     outfile.write(newline)
                     continue
                 # change the atom name OT1 to O in PRO residue
